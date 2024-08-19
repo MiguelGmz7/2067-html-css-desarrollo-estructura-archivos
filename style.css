@@ -25,6 +25,9 @@ strong{
 
 .presentacion_contenido {
     width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .presentacion_contenido_titulo {
@@ -35,4 +38,27 @@ strong{
 .presentacion_contenido_texto {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
+}
+
+.presentacion_contenido_enlaces {
+    display: flex;
+    justify-content: space-between;
+    /*margin-top: 30px;*/
+    margin-left: 100px;
+    margin-right: 100px; 
+    
+}
+
+.presentacion_contenido_enlaces_link {
+    width: 280px;
+    background-color: #22D4FD;
+    text-align: center;
+    padding-top: 21.5px;
+    padding-bottom: 21.5px;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
 }
