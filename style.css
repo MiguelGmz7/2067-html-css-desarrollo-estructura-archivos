@@ -59,15 +59,24 @@ strong{
 }
 
 .presentacion_contenido_enlaces_link {
+    /*Medidas internas del boton*/
     width: 381px;
-    text-align: center;
     padding-top: 21.5px;
     padding-bottom: 21.5px;
-    border-radius: 8px;
+
+    /*Todo lo relacionado a las letras*/
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none; /*elimina el subrayado de los links */
     color: #F6F6F6; /*color de la letras*/
+    
+    /*Lo relaciado a como se muestra el borde*/
+    border-radius: 8px;
     border: 2px solid #22D4FD; /*Borde con 2px de ancho, solid y color*/
+
+    /*Como acomodamos el contenido dentro del boton (imagen y texto)*/
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
