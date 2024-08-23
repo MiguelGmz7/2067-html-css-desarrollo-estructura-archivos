@@ -1,5 +1,14 @@
  @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); /*Krona One y Fuente Montserrat*/
 
+:root {
+    --color-primario: #000000;
+    --color-secundario: #F6F6F6;
+    --color-tercerio:  #22D4FD;
+    --fuente-monserrat: "Montserrat", sans-serif;
+    --fuente-krona: "Krona One", sans-serif;
+    --color-hover:  #272727;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -15,21 +24,21 @@
 }
 
 .header__menu__link {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-monserrat);
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--color-tercerio);
 }
 
 body{
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
     box-sizing: border-box;
 }
 
 strong{
-    color: #22D4FD;
+    color: var(--color-tercerio);
 }
 
 .presentacion {
@@ -49,12 +58,12 @@ strong{
 
 .presentacion_contenido_titulo {
     font-size: 36px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fuente-krona);
 }
 
 .presentacion_contenido_texto {
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-monserrat);
 }
 
 .presentacion_contenido_enlaces {
@@ -70,7 +79,7 @@ strong{
 }
 
 .presentacion_contenido_enlaces_subtitulo {
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fuente-krona);
     font-size: 24px;
     font-weight: 400;
 }
@@ -82,15 +91,15 @@ strong{
     padding-bottom: 21.5px;
 
     /*Todo lo relacionado a las letras*/
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-monserrat);
     font-size: 24px;
     font-weight: 600;
     text-decoration: none; /*elimina el subrayado de los links */
-    color: #F6F6F6; /*color de la letras*/
+    color: var(--color-secundario); /*color de la letras*/
     
     /*Lo relaciado a como se muestra el borde*/
     border-radius: 8px;
-    border: 2px solid #22D4FD; /*Borde con 2px de ancho, solid y color*/
+    border: 2px solid var(--color-tercerio); /*Borde con 2px de ancho, solid y color*/
 
     /*Como acomodamos el contenido dentro del boton (imagen y texto)*/
     display: flex;
@@ -100,18 +109,18 @@ strong{
 
 /* ahora a los botones le agregamos la propiedad de hover */
 .presentacion_contenido_enlaces_link:hover {
-    background-color: #272727;
+    background-color: var(--color-hover);
 }
 
 .footer {
-    background-color: #22D4FD;
-    color: #000000;
+    background-color: var(--color-tercerio);
+    color: var(--color-primario);
 
     display: flex;
     justify-content: center;
     padding: 23.64px;
 
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-monserrat);
     font-weight: 400;
 }
