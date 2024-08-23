@@ -8,7 +8,6 @@
 body{
     background-color: #000000;
     color: #F6F6F6;
-    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -20,7 +19,8 @@ strong{
     align-items: center;
     display: flex;
     margin: 10vh;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 82px;
 }
 
 .presentacion_contenido {
@@ -79,4 +79,22 @@ strong{
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+/* ahora a los botones le agregamos la propiedad de hover */
+.presentacion_contenido_enlaces_link:hover {
+    background-color: #272727;
+}
+
+.footer {
+    background-color: #22D4FD;
+    color: #000000;
+
+    display: flex;
+    justify-content: center;
+    padding: 23.64px;
+
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
