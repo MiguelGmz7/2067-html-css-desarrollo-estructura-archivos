@@ -7,6 +7,7 @@
     --fuente-monserrat: "Montserrat", sans-serif;
     --fuente-krona: "Krona One", sans-serif;
     --color-hover:  #272727;
+    --font-size-default: 1.5rem;
 }
 
 *{
@@ -25,7 +26,7 @@
 
 .header__menu__link {
     font-family: var(--fuente-monserrat);
-    font-size: 24px;
+    font-size: var(--font-size-default);
     font-weight: 600;
     text-decoration: none;
     color: var(--color-tercerio);
@@ -57,12 +58,12 @@ strong{
 }
 
 .presentacion_contenido_titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fuente-krona);
 }
 
 .presentacion_contenido_texto {
-    font-size: 24px;
+    font-size: var(--font-size-default);
     font-family: var(--fuente-monserrat);
 }
 
@@ -80,7 +81,7 @@ strong{
 
 .presentacion_contenido_enlaces_subtitulo {
     font-family: var(--fuente-krona);
-    font-size: 24px;
+    font-size: var(--font-size-default);
     font-weight: 400;
 }
 
@@ -92,7 +93,7 @@ strong{
 
     /*Todo lo relacionado a las letras*/
     font-family: var(--fuente-monserrat);
-    font-size: 24px;
+    font-size: var(--font-size-default);
     font-weight: 600;
     text-decoration: none; /*elimina el subrayado de los links */
     color: var(--color-secundario); /*color de la letras*/
@@ -120,7 +121,7 @@ strong{
     justify-content: center;
     padding: 23.64px;
 
-    font-size: 24px;
+    font-size: var(--font-size-default);
     font-family: var(--fuente-monserrat);
     font-weight: 400;
 }
