@@ -150,4 +150,8 @@ strong{
     .presentacion_contenido {
         width: auto;
     }
+
+    .presentacion_contenido_enlaces_link {
+        padding: 5%;
+    }
 }
